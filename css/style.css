@@ -88,6 +88,7 @@ header a:hover{
 /* SHOWCASE */
 #showcase{
   min-height:450px;
+  max-height:450px;
   text-align:center;
   color:#ffffff;
   overflow: hidden;
