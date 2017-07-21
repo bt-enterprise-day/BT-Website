@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+<title>Bing</title>
+<link rel="icon" href= "faviconblue.png"> 
+<style>
+
+.bar{
+    position: absolute;
+    left: 200px;
+    top: 105px;
+    height: 40px;
+    width: 400px;
+    border: 1px solid #999;
+    border-radius: 0;
+}
+
+.mag{
+    position: absolute;
+    left:560px;
+    top: 105px;
+   
+}
+
+.logo{
+    position: absolute;
+    left:60px;
+    top: 82px;
+
+}
+
+.webtab{
+    color: white;
+    font-family: Arial;
+
+}
+ 
+.imagetab{
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    top: 17px;
+    left:60px;
+
+}
+
+.videotab{
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    top: 17px;
+    left:130px;
+
+}
+
+.mapstab{
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    top: 17px;
+    left:190px;
+
+</style>
+ 
+
+<form action="btweb">
+<input type="text" name="search" placeholder="" class= "bar"/>
+   
+
+
+<input type="image" src="Search_button.png" name="saveForm" class="mag" id="saveForm" height="43" width= "45"/>
+
+
+</form>
+</form>
+<img src="white_logo.png" class="logo" alt="bing" style="width:150px;height:75px;">
+<body background="background.jpg">
+<p><a href="https://www.google.co.uk/?gws_rd=ssl" class= "webtab">Web</a></p>
+<p><a href="https://www.bing.com/images/discover?FORM=ILPMFT" class= "imagetab">Images</a></p>
+<p><a href="https://www.bing.com/videos/explore?FORM=RECMVI" class= "videotab">Video</a></p>
+<p><a href="https://www.bing.com/maps?FORM=Z9LH3" class= "mapstab">Maps</a></p>
+</body>
+</html>
