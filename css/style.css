@@ -9,9 +9,10 @@ body{
 
 /* GLOBAL */
 .container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
 }
 
 ul{
@@ -87,15 +88,22 @@ header a:hover{
 /* SHOWCASE */
 #showcase{
   min-height:450px;
-  background:url("../images/BTtest4.jpg") no-repeat -40px -140px;
   text-align:center;
   color:#ffffff;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin: auto;
+
+            
 }
 
 #showcase p{
   margin-top:165px;
   font-size:65px;
   margin-bottom:10px;
+  top: 30%;
+  left: 20%;
 }
 
 /* WEBSITE */
@@ -204,5 +212,6 @@ footer{
 
   #showcase p{
     margin-top:100px;
+    width: 3000px;
   }
 }
